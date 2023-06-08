@@ -13,6 +13,9 @@ dependencies:
   '@vueuse/head':
     specifier: ^1.1.26
     version: 1.1.26(vue@3.3.4)
+  echarts:
+    specifier: ^5.4.2
+    version: 5.4.2
   nprogress:
     specifier: ^0.2.0
     version: 0.2.0
@@ -4597,6 +4600,13 @@ packages:
       safer-buffer: 2.1.2
     dev: true
 
+  /echarts@5.4.2:
+    resolution: {integrity: sha512-2W3vw3oI2tWJdyAz+b8DuWS0nfXtSDqlDmqgin/lfzbkB01cuMEN66KWBlmur3YMp5nEDEEt5s23pllnAzB4EA==}
+    dependencies:
+      tslib: 2.3.0
+      zrender: 5.4.3
+    dev: false
+
   /editorconfig@0.15.3:
     resolution: {integrity: sha512-M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==}
     hasBin: true
@@ -8960,6 +8970,10 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
+  /tslib@2.3.0:
+    resolution: {integrity: sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==}
+    dev: false
+
   /tslib@2.5.2:
     resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==}
     dev: true
@@ -10316,3 +10330,9 @@ packages:
 
   /zhead@2.0.4:
     resolution: {integrity: sha512-V4R94t3ifk9AURym6OskbKcnowzgp5Z88tkoL/NF67vyryNxC62u6mx5F1Ux4oh4+YN7FFmKYEyWy6m5kfPH6g==}
+
+  /zrender@5.4.3:
+    resolution: {integrity: sha512-DRUM4ZLnoaT0PBVvGBDO9oWIDBKFdAVieNWxWwK0niYzJCMwGchRk21/hsE+RKkIveH3XHCyvXcJDkgLVvfizQ==}
+    dependencies:
+      tslib: 2.3.0
+    dev: false
