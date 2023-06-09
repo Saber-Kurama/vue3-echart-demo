@@ -8,3 +8,5 @@ node_modules
 .idea/
 *.log
 cypress/downloads
+
+src/data/three.json
